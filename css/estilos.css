@@ -1,8 +1,17 @@
+// Basic reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Aula inicial :D */
 body {
-  /* background-image: url("http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg"); */
-  background-image: url("https://source.unsplash.com/Q7PclNhVRI0");
+  background-image: url("abacaxi.jpg");
   background-size: auto 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   font-family: arial;
 }
@@ -25,7 +34,7 @@ a:hover {
   text-decoration: underline;
 }
 .site-subtitle, .site-title{
-  color: whitesmoke;
+  color: #006a4e;
   text-align: center;
 }
 .site-subtitle {
